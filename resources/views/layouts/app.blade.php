@@ -15,7 +15,7 @@
 
     <div class="container mx-auto p-6">
 
-        <div class="mb-6 flex gap-3">
+        <div class="mb-6 flex flex-wrap gap-3">
 
             <a href="/">
                 <x-t-button variant="primary">
@@ -23,8 +23,32 @@
                 </x-t-button>
             </a>
 
-            <a href="/about">
+            <a href="/settings">
                 <x-t-button variant="success">
+                    Settings
+                </x-t-button>
+            </a>
+
+            <a href="/component-preview">
+                <x-t-button variant="info">
+                    Component Preview
+                </x-t-button>
+            </a>
+
+            <a href="/variant-builder">
+                <x-t-button variant="warning">
+                    Variant Builder
+                </x-t-button>
+            </a>
+
+            <a href="/theme-customizer">
+                <x-t-button variant="danger">
+                    Theme Customizer
+                </x-t-button>
+            </a>
+
+            <a href="/about">
+                <x-t-button variant="secondary">
                     About
                 </x-t-button>
             </a>
